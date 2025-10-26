@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/order_qa_dev
+    username: qa_user
+    password: qa_password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
